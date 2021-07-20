@@ -4,8 +4,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-left: 19.9%;
   margin-right: 19.9%;
   max-width: 830px;
@@ -53,7 +53,8 @@ body hr {
   padding-bottom: 0.1%;
 }
 
-.section-1 h2, .section-1 h5 {
+.section-1 h2,
+.section-1 h5 {
   background-color: orange;
 }
 
@@ -79,8 +80,8 @@ body hr {
 
 .section-4 {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
   background-image: linear-gradient(160deg, #211c52 0%, #0b0331 50%, #24204d 100%);
   margin-bottom: 1%;
@@ -95,8 +96,8 @@ body hr {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-size: smaller;
 }
 
@@ -120,7 +121,7 @@ body hr {
   -webkit-transition: all 0.9s ease;
   transition: all 0.9s ease;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   position: absolute;
   top: 0;
   left: 0;
@@ -131,7 +132,7 @@ body hr {
 
 .card-side.back {
   -webkit-transform: rotateY(-180deg);
-          transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
   background-color: orange;
   background-image: linear-gradient(43deg, #f8db57 0%, #f7ce78 46%, #ffba5f 100%);
 }
@@ -143,11 +144,11 @@ body hr {
 
 .card:hover .card-side.front {
   -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .card:hover .card-side.back {
   -webkit-transform: rotateY(0deg);
-          transform: rotateY(0deg);
+  transform: rotateY(0deg);
 }
 /*# sourceMappingURL=main.css.map */
