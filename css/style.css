@@ -1,0 +1,14 @@
+@import url(../css/_variables.scss);
+body {
+  background-color: color1;
+  color: color2;
+}
+
+body h1 {
+  color: white;
+}
+
+body p {
+  color: brown;
+}
+/*# sourceMappingURL=style.css.map */
